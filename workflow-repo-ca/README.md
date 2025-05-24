@@ -69,15 +69,6 @@ npm test
 Start the local server and run Playwright:
 
 ```bash
-npx playwright install
 npm run e2e
 ```
 
-## Pre-commit Hooks
-
-Ensure code is linted and formatted automatically before each commit using Husky and lint-staged:
-
-```bash
-npm install -D husky lint-staged
-npx husky init
-```
